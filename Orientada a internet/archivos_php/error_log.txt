@@ -1,0 +1,161 @@
+Iniciando subida de archivo
+Punto 1 - Inicio try
+Punto 2 - Archivo válido
+Punto 3 - Variables asignadas
+Punto 4 - Destinatario válido
+Punto 5 - Tamaño válido
+Punto 7 - Directorio principal verificado
+Punto 8 - Tipo determinado: imagenes
+Punto 10 - Subdirectorio verificado
+Punto 11 - Ruta generada: ../Archivos/imagenes/6912cb494a4d8_1762839369.jpg
+Punto 12 - Intentando mover archivo
+Punto 13 - Archivo movido exitosamente
+Punto 15 - Preparando consulta BD
+Punto 15a - es_grupo: false, grupo_id: null, destinatario_id: 2
+Punto 15b - Entrando en flujo INDIVIDUAL
+Punto 16 - Query individual: INSERT INTO mensajes (remitente_id, destinatario_id, mensaje, tipo_mensaje, archivoNombre, archivoTipo, archivoSize, archivoPath, encriptado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Iniciando subida de archivo
+Punto 1 - Inicio try
+Punto 2 - Archivo válido
+Punto 3 - Variables asignadas
+Punto 4 - Destinatario válido
+Punto 5 - Tamaño válido
+Punto 7 - Directorio principal verificado
+Punto 8 - Tipo determinado: imagenes
+Punto 10 - Subdirectorio verificado
+Punto 11 - Ruta generada: ../Archivos/imagenes/6912cc914622f_1762839697.jpg
+Punto 12 - Intentando mover archivo
+Punto 13 - Archivo movido exitosamente
+Punto 15 - Preparando consulta BD
+Punto 15a - es_grupo: false, grupo_id: null, destinatario_id: 2
+Punto 15b - Entrando en flujo INDIVIDUAL
+Punto 16 - Query individual: INSERT INTO mensajes (remitente_id, destinatario_id, mensaje, tipo_mensaje, archivoNombre, archivoTipo, archivoSize, archivoPath, encriptado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Iniciando subida de archivo
+Punto 1 - Inicio try
+Punto 2 - Archivo válido
+Punto 3 - Variables asignadas
+Punto 4 - Destinatario válido
+Punto 5 - Tamaño válido
+Punto 7 - Directorio principal verificado
+Punto 8 - Tipo determinado: imagenes
+Punto 10 - Subdirectorio verificado
+Punto 11 - Ruta generada: ../Archivos/imagenes/6912ccf285583_1762839794.jpg
+Punto 12 - Intentando mover archivo
+Punto 13 - Archivo movido exitosamente
+Punto 15 - Preparando consulta BD
+Punto 15a - es_grupo: false, grupo_id: null, destinatario_id: 2
+Punto 15b - Entrando en flujo INDIVIDUAL
+Punto 16 - Query individual: INSERT INTO mensajes (remitente_id, destinatario_id, mensaje, tipo_mensaje, archivoNombre, archivoTipo, archivoSize, archivoPath, encriptado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Iniciando subida de archivo
+Punto 1 - Inicio try
+Punto 2 - Archivo válido
+Punto 3 - Variables asignadas
+Punto 4 - Destinatario válido
+Punto 5 - Tamaño válido
+Punto 7 - Directorio principal verificado
+Punto 8 - Tipo determinado: imagenes
+Punto 10 - Subdirectorio verificado
+Punto 11 - Ruta generada: ../Archivos/imagenes/6912cd4621899_1762839878.jpg
+Punto 12 - Intentando mover archivo
+Punto 13 - Archivo movido exitosamente
+Punto 15 - Preparando consulta BD
+Punto 15a - es_grupo: false, grupo_id: null, destinatario_id: 2
+Punto 15b - Entrando en flujo INDIVIDUAL
+Punto 16 - Query individual: INSERT INTO mensajes (remitente_id, destinatario_id, mensaje, tipo_mensaje, archivoNombre, archivoTipo, archivoSize, archivoPath, encriptado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Punto 16c - Valores a insertar:
+  remitente_id: 1
+  destinatario_id: 2
+  archivo_nombre: lobster.jpg
+  archivo_tipo: image/jpeg
+  archivo_size: 28872
+  archivo_path: ../Archivos/imagenes/6912cd4621899_1762839878.jpg
+Iniciando subida de archivo
+Punto 1 - Inicio try
+Punto 2 - Archivo válido
+Punto 3 - Variables asignadas
+Punto 4 - Destinatario válido
+Punto 5 - Tamaño válido
+Punto 7 - Directorio principal verificado
+Punto 8 - Tipo determinado: imagenes
+Punto 10 - Subdirectorio verificado
+Punto 11 - Ruta generada: ../Archivos/imagenes/6912ce250dd0c_1762840101.jpg
+Punto 12 - Intentando mover archivo
+Punto 13 - Archivo movido exitosamente
+Punto 14.5 - Conectando a la base de datos
+Punto 14.7 - Conexión a BD exitosa
+Punto 15 - Preparando consulta BD
+Punto 15 - Preparando consulta BD
+Punto 15a - es_grupo: false, grupo_id: null, destinatario_id: 2
+Punto 15b - Entrando en flujo INDIVIDUAL
+Punto 16 - Query individual: INSERT INTO mensajes (remitente_id, destinatario_id, mensaje, tipo_mensaje, archivoNombre, archivoTipo, archivoSize, archivoPath, encriptado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Punto 16c - Valores a insertar:
+  remitente_id: 1
+  destinatario_id: 2
+  archivo_nombre: lobster.jpg
+  archivo_tipo: image/jpeg
+  archivo_size: 28872
+  archivo_path: ../Archivos/imagenes/6912ce250dd0c_1762840101.jpg
+Punto 16c - Consulta individual preparada exitosamente
+Punto 17 - Valores: remitente_id=1, destinatario_id=2, mensaje=📷 Imagen compartida
+Punto 18 - Ejecutando consulta
+Punto 19 - Consulta ejecutada exitosamente
+Iniciando subida de archivo
+Punto 1 - Inicio try
+Punto 2 - Archivo válido
+Punto 3 - Variables asignadas
+Punto 4 - Destinatario válido
+Punto 5 - Tamaño válido
+Punto 7 - Directorio principal verificado
+Punto 8 - Tipo determinado: imagenes
+Punto 10 - Subdirectorio verificado
+Punto 11 - Ruta generada: ../Archivos/imagenes/6912ce2e2d8f0_1762840110.jpg
+Punto 12 - Intentando mover archivo
+Punto 13 - Archivo movido exitosamente
+Punto 14.5 - Conectando a la base de datos
+Punto 14.7 - Conexión a BD exitosa
+Punto 15 - Preparando consulta BD
+Punto 15 - Preparando consulta BD
+Punto 15a - es_grupo: false, grupo_id: null, destinatario_id: 2
+Punto 15b - Entrando en flujo INDIVIDUAL
+Punto 16 - Query individual: INSERT INTO mensajes (remitente_id, destinatario_id, mensaje, tipo_mensaje, archivoNombre, archivoTipo, archivoSize, archivoPath, encriptado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Punto 16c - Valores a insertar:
+  remitente_id: 1
+  destinatario_id: 2
+  archivo_nombre: lobster.jpg
+  archivo_tipo: image/jpeg
+  archivo_size: 28872
+  archivo_path: ../Archivos/imagenes/6912ce2e2d8f0_1762840110.jpg
+Punto 16c - Consulta individual preparada exitosamente
+Punto 17 - Valores: remitente_id=1, destinatario_id=2, mensaje=📷 Imagen compartida
+Punto 18 - Ejecutando consulta
+Punto 19 - Consulta ejecutada exitosamente
+Iniciando subida de archivo
+Punto 1 - Inicio try
+Punto 2 - Archivo válido
+Punto 3 - Variables asignadas
+Punto 4 - Destinatario válido
+Punto 5 - Tamaño válido
+Punto 7 - Directorio principal verificado
+Punto 8 - Tipo determinado: imagenes
+Punto 10 - Subdirectorio verificado
+Punto 11 - Ruta generada: ../Archivos/imagenes/6912ce4318257_1762840131.jpg
+Punto 12 - Intentando mover archivo
+Punto 13 - Archivo movido exitosamente
+Punto 14.5 - Conectando a la base de datos
+Punto 14.7 - Conexión a BD exitosa
+Punto 15 - Preparando consulta BD
+Punto 15 - Preparando consulta BD
+Punto 15a - es_grupo: false, grupo_id: null, destinatario_id: 2
+Punto 15b - Entrando en flujo INDIVIDUAL
+Punto 16 - Query individual: INSERT INTO mensajes (remitente_id, destinatario_id, mensaje, tipo_mensaje, archivoNombre, archivoTipo, archivoSize, archivoPath, encriptado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Punto 16c - Valores a insertar:
+  remitente_id: 1
+  destinatario_id: 2
+  archivo_nombre: lobster.jpg
+  archivo_tipo: image/jpeg
+  archivo_size: 28872
+  archivo_path: ../Archivos/imagenes/6912ce4318257_1762840131.jpg
+Punto 16c - Consulta individual preparada exitosamente
+Punto 17 - Valores: remitente_id=1, destinatario_id=2, mensaje=📷 Imagen compartida
+Punto 18 - Ejecutando consulta
+Punto 19 - Consulta ejecutada exitosamente

@@ -1,0 +1,322 @@
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#remoteVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+#localVideo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  background: #000;
+}
+
+#localVideo:hover {
+  transform: scale(1.05);
+  border-color: #4CAF50;
+}
+
+.call-controls {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.call-controls .btn {
+  margin: 0 8px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.call-controls .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s;
+}
+
+.call-controls .btn:hover::before {
+  left: 100%;
+}
+
+.call-controls .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.call-controls .btn:active {
+  transform: translateY(-1px);
+}
+
+#endCallBtn {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  border: none;
+}
+
+#endCallBtn:hover {
+  background: linear-gradient(135deg, #c82333, #a71e2a);
+  transform: translateY(-3px);
+}
+
+#toggleAudioBtn, #toggleVideoBtn {
+  background: linear-gradient(135deg, #6c757d, #5a6268);
+  border: none;
+}
+
+#toggleAudioBtn:hover, #toggleVideoBtn:hover {
+  background: linear-gradient(135deg, #5a6268, #495056);
+}
+
+#toggleAudioBtn.active, #toggleVideoBtn.active {
+  background: linear-gradient(135deg, #28a745, #20c997);
+}
+
+.call-status {
+  text-align: center;
+  padding: 15px;
+  color: #495057;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+
+.calling-indicator {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  margin: 20px 0;
+}
+
+.calling-indicator .spinner-border {
+  margin-bottom: 15px;
+  width: 3rem;
+  height: 3rem;
+  color: #4CAF50;
+}
+
+.calling-text {
+  font-size: 1.2rem;
+  color: #495057;
+  font-weight: 500;
+}
+
+
+#videoCallModal .modal-content {
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+#videoCallModal .modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-bottom: none;
+  padding: 20px 25px;
+}
+
+#videoCallModal .modal-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+#videoCallModal .btn-close {
+  filter: invert(1);
+  opacity: 0.8;
+}
+
+#videoCallModal .btn-close:hover {
+  opacity: 1;
+}
+
+#videoCallModal .modal-body {
+  padding: 25px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+
+.call-timer {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #495057;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.connection-status {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
+}
+
+.connection-status.connected {
+  background: rgba(76, 175, 80, 0.9);
+}
+
+.connection-status.connecting {
+  background: rgba(255, 193, 7, 0.9);
+}
+
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  80%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+.ring-animation {
+  position: relative;
+}
+
+.ring-animation::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #4CAF50;
+  animation: pulse-ring 1.5s infinite;
+}
+
+
+.quality-indicator {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 6px 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.quality-bar {
+  width: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.quality-bar.active {
+  background: #4CAF50;
+}
+
+.quality-bar.excellent { height: 12px; }
+.quality-bar.good { height: 8px; }
+.quality-bar.fair { height: 4px; }
+
+
+@media (max-width: 768px) {
+  .video-container {
+    height: 300px;
+  }
+  
+  #localVideo {
+    width: 120px;
+    height: 80px;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .call-controls .btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    font-size: 1rem;
+  }
+  
+  .call-controls {
+    padding: 15px;
+  }
+}
+
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.video-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 1;
+}
